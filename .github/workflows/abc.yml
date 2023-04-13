@@ -12,4 +12,4 @@ jobs:
 
       - name: conditional check
         if: 4>3 and 6>2
-            echo "it works"
+        run: echo "it works"
