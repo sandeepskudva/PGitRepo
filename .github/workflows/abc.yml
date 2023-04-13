@@ -8,5 +8,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: conditional check
-        if: 4>3 and 6>2
+        if: 4>3 && 6>2
         run: echo "it works"
